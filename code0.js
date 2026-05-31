@@ -17,6 +17,10 @@ gdjs.Lvl1Code.GDFlatDarkJoystickObjects1= [];
 gdjs.Lvl1Code.GDFlatDarkJoystickObjects2= [];
 gdjs.Lvl1Code.GDJumpButtonObjects1= [];
 gdjs.Lvl1Code.GDJumpButtonObjects2= [];
+gdjs.Lvl1Code.GDResetButtonObjects1= [];
+gdjs.Lvl1Code.GDResetButtonObjects2= [];
+gdjs.Lvl1Code.GDResetButtonTextObjects1= [];
+gdjs.Lvl1Code.GDResetButtonTextObjects2= [];
 
 
 gdjs.Lvl1Code.mapOfGDgdjs_9546Lvl1Code_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.Lvl1Code.GDPlayerObjects1});
@@ -59,6 +63,31 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ResetButton"), gdjs.Lvl1Code.GDResetButtonObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Lvl1Code.GDResetButtonObjects1.length;i<l;++i) {
+    if ( gdjs.Lvl1Code.GDResetButtonObjects1[i].getBehavior("ButtonFSM").IsClicked(null) ) {
+        isConditionTrue_0 = true;
+        gdjs.Lvl1Code.GDResetButtonObjects1[k] = gdjs.Lvl1Code.GDResetButtonObjects1[i];
+        ++k;
+    }
+}
+gdjs.Lvl1Code.GDResetButtonObjects1.length = k;
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Lvl1Code.GDPlayerObjects1);
+{for(var i = 0, len = gdjs.Lvl1Code.GDPlayerObjects1.length ;i < len;++i) {
+    gdjs.Lvl1Code.GDPlayerObjects1[i].setPosition(128,256);
+}
+}
+}
+
+}
+
+
 };
 
 gdjs.Lvl1Code.func = function(runtimeScene) {
@@ -80,6 +109,10 @@ gdjs.Lvl1Code.GDFlatDarkJoystickObjects1.length = 0;
 gdjs.Lvl1Code.GDFlatDarkJoystickObjects2.length = 0;
 gdjs.Lvl1Code.GDJumpButtonObjects1.length = 0;
 gdjs.Lvl1Code.GDJumpButtonObjects2.length = 0;
+gdjs.Lvl1Code.GDResetButtonObjects1.length = 0;
+gdjs.Lvl1Code.GDResetButtonObjects2.length = 0;
+gdjs.Lvl1Code.GDResetButtonTextObjects1.length = 0;
+gdjs.Lvl1Code.GDResetButtonTextObjects2.length = 0;
 
 gdjs.Lvl1Code.eventsList0(runtimeScene);
 gdjs.Lvl1Code.GDPlayerObjects1.length = 0;
@@ -98,6 +131,10 @@ gdjs.Lvl1Code.GDFlatDarkJoystickObjects1.length = 0;
 gdjs.Lvl1Code.GDFlatDarkJoystickObjects2.length = 0;
 gdjs.Lvl1Code.GDJumpButtonObjects1.length = 0;
 gdjs.Lvl1Code.GDJumpButtonObjects2.length = 0;
+gdjs.Lvl1Code.GDResetButtonObjects1.length = 0;
+gdjs.Lvl1Code.GDResetButtonObjects2.length = 0;
+gdjs.Lvl1Code.GDResetButtonTextObjects1.length = 0;
+gdjs.Lvl1Code.GDResetButtonTextObjects2.length = 0;
 
 
 return;
