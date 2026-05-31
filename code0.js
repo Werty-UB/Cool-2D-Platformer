@@ -13,6 +13,10 @@ gdjs.Lvl1Code.GDFinish_9595Flag_9595Lvl1Objects1= [];
 gdjs.Lvl1Code.GDFinish_9595Flag_9595Lvl1Objects2= [];
 gdjs.Lvl1Code.GDAw_9595manObjects1= [];
 gdjs.Lvl1Code.GDAw_9595manObjects2= [];
+gdjs.Lvl1Code.GDFlatDarkJoystickObjects1= [];
+gdjs.Lvl1Code.GDFlatDarkJoystickObjects2= [];
+gdjs.Lvl1Code.GDJumpButtonObjects1= [];
+gdjs.Lvl1Code.GDJumpButtonObjects2= [];
 
 
 gdjs.Lvl1Code.mapOfGDgdjs_9546Lvl1Code_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.Lvl1Code.GDPlayerObjects1});
@@ -72,6 +76,10 @@ gdjs.Lvl1Code.GDFinish_9595Flag_9595Lvl1Objects1.length = 0;
 gdjs.Lvl1Code.GDFinish_9595Flag_9595Lvl1Objects2.length = 0;
 gdjs.Lvl1Code.GDAw_9595manObjects1.length = 0;
 gdjs.Lvl1Code.GDAw_9595manObjects2.length = 0;
+gdjs.Lvl1Code.GDFlatDarkJoystickObjects1.length = 0;
+gdjs.Lvl1Code.GDFlatDarkJoystickObjects2.length = 0;
+gdjs.Lvl1Code.GDJumpButtonObjects1.length = 0;
+gdjs.Lvl1Code.GDJumpButtonObjects2.length = 0;
 
 gdjs.Lvl1Code.eventsList0(runtimeScene);
 gdjs.Lvl1Code.GDPlayerObjects1.length = 0;
@@ -86,6 +94,10 @@ gdjs.Lvl1Code.GDFinish_9595Flag_9595Lvl1Objects1.length = 0;
 gdjs.Lvl1Code.GDFinish_9595Flag_9595Lvl1Objects2.length = 0;
 gdjs.Lvl1Code.GDAw_9595manObjects1.length = 0;
 gdjs.Lvl1Code.GDAw_9595manObjects2.length = 0;
+gdjs.Lvl1Code.GDFlatDarkJoystickObjects1.length = 0;
+gdjs.Lvl1Code.GDFlatDarkJoystickObjects2.length = 0;
+gdjs.Lvl1Code.GDJumpButtonObjects1.length = 0;
+gdjs.Lvl1Code.GDJumpButtonObjects2.length = 0;
 
 
 return;
